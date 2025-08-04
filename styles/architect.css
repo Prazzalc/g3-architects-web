@@ -35,6 +35,16 @@
     color: #727272;
 }
 
+.primary-btn {
+    background-color: #FF900E;
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 1.25rem;
+    padding: 20px 24px;
+    border-radius: 8px;
+}
+
 
 
 /* header styles */
@@ -44,10 +54,12 @@
 
 .navbar {
     justify-content: space-between;
+    align-items: center;
 }
 
 .brand {
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 
@@ -59,9 +71,31 @@
     text-decoration: none;
     margin-right: 30px;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .navbar, .banner {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+
+
+
+/* banner styles */
+
+
+.banner-content {
+    max-width: 850px;
+    align-self: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.banner-pic {
+    width: 100%;
 }
