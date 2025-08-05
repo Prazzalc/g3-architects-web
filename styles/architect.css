@@ -179,6 +179,27 @@ main>section {
     font-size: 1.25rem;
 }
 
+#experience-badge {
+    padding: 45px 42px;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+#experience-year {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+#experience {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#architect-img img {
+    width: 100%;
+}
+
 
 
 
@@ -268,7 +289,8 @@ footer {
 
     .navbar,
     .nav-links,
-    .teams {
+    .teams, 
+    .features {
         flex-direction: column;
     }
 
@@ -289,6 +311,11 @@ footer {
 
     .our-features {
         margin: 20px;
+    }
+
+    #experience-badge {
+        margin-left: 20px;
+        margin-top: 20px;
     }
 
 
